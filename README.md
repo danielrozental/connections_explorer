@@ -1,11 +1,22 @@
 # Connections Explorer
-Connections Explorer for Qlik Sense
+A new solution to your everyday problems
 
 ## Summary
 
-Qlik Sense Connections Explorer's main goal is to allow the user to explore and live query Qlik Sense QVDs files and ODBC Connections.
+- Why doesn't this record show up on the dashboard? 
+- Is it not present at the source or was it lost in some intermediate process?
+- Have all the necessary files been updated?
+- What processes read or write this QVD?
 
-It also includes field, metadata and lineage information and allows you to publish QVDs to a blank QVF application.
+If any of these questions sound familiar and you're tired of having to put together a new dashboard or access multiple files or query tools every time a question or problem arises, Connections Explorer may make your life a little easier.
+
+In a dashboard made entirely in Qlik Sense (without extensions other than those provided in the installation package bundle) it allows you to directly browse and query the tables of the connections defined in Qlik Sense and the QVDs files. The user can choose the connection, table, file, fields to see, filter by a value or get all the records.
+
+In addition, it adds metadata information, lineage and in case it is necessary to publish one or more QVDs to a new board without the need to write script or queries.
+
+The dashboard and necessary scripts are provided as is free of charge. Download Link and more information. 
+
+If you need help setting it up or want to include additional information, please contact us.
 
 ## Connections Explorer Sheets
 ### Table Preview
