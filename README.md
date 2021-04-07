@@ -1,7 +1,30 @@
 # Connections Explorer
-Qlik Sense Connections Explorer
+Connections Explorer for Qlik Sense
 
 ## Summary
+
+Qlik Sense Connections Explorer's main goal is to allow the user to explore and live query Qlik Sense QVDs files and ODBC Connections.
+
+It also includes field, metadata and lineage information and allows you to publish QVDs to a blank QVF application.
+
+## Connections Explorer Sheets
+### Table Preview
+Allows you to navigate to the QVD File/Table, get a limited rows/fields or full preview, make from to or particular selections on a field (e.g. category_id = 8). You can also create a new app out of a selected table using the Table Export ODAG button.
+
+### Lineage
+Lineage allows you to select a particular QVD and see what App is generating and what Apps are reading that file.
+
+### Field Preview
+Shows metadata information about QVD fields (max min avg count nulls).
+
+### Publish
+Allows the user to select multiple QVDs and publish them to a QVF through ODAG. It also shows what fields are present in multiple files and allows the user to select which of the will be qualified with the table name in order to avoid unwanted associations.
+
+### QVDs
+Shows all the QVDs in the Connections Folders and the last time each file has been read (Last time an App that reads that file has run) and written (File time).
+
+### Metadata
+Shows available metadata from QVD Files and Databases
 
 ## Configuration
 
